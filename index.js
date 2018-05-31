@@ -78,7 +78,7 @@ function fixYPosition (y, node) {
   return fixYPosition(y, node.parentNode)
 }
 
-class SvgUri extends Component{
+export default class SvgUri extends Component{
 
   constructor(props){
     super(props);
@@ -311,4 +311,3 @@ SvgUri.propTypes = {
   fillAll: PropTypes.bool
 }
 
-module.exports = SvgUri;
